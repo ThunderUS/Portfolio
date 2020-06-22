@@ -1,0 +1,21 @@
+@import "default/reset";
+@import "default/fonts";
+@import "default/variables";
+@import "blocks/header";
+@import "blocks/share";
+@import "blocks/easy";
+@import "blocks/shower";
+@import "blocks/bussines";
+@import "blocks/mail-form";
+@import "blocks/gift";
+@import "blocks/contact";
+@import "blocks/footer";
+
+.container {
+    margin: 0 auto;
+    max-width: 985px;
+    padding: 0 15px;
+}
+
+
+@import "blocks/media";

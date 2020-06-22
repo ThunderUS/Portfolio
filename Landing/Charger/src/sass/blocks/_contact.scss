@@ -1,0 +1,152 @@
+.contact-form {
+    min-height: 624px;
+    padding: 95px 0 0 0;
+    background: url("../img/contact_us/bg/1.jpg") center (center/cover) no-repeat;
+
+    &-wrapper {
+        display: flex;
+
+        &__item {
+            margin-right: 102px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            &__title {
+                font-family: "Myriad Pro - Semibold";
+                font-size: 36px;
+                font-weight: 400;
+                line-height: 32px;
+            }
+
+            input {
+                display: block;
+                width: 456px;
+                height: 48px;
+                margin-top: 22px;
+                padding-left: 16px;
+
+                &::placeholder {
+                    color: #3cd072;
+                    font-family: "Myriad Pro";
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+
+                }
+
+                &::-moz-placeholder {
+                    line-height: 45px;
+
+                }
+            }
+
+            textarea {
+                margin-top: 24px;
+                width: 456px;
+                height: 192px;
+                padding-left: 16px;
+                padding-top: 16px;
+
+
+                &::placeholder {
+                    color: #3cd072;
+                    font-family: "Myriad Pro";
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+
+                }
+            }
+
+            button {
+                display: block;
+                margin-top: 24px;
+                width: 216px;
+                height: 48px;
+                background-color: #000000;
+                border-radius: 5px;
+                color: #ffffff;
+                font-family: "Myriad Pro - Semibold";
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+            }
+
+            &__link1 {
+                display: block;
+                position: relative;
+                margin-top: 32px;
+                text-decoration: none;
+                color: #ffffff;
+                font-family: "Myriad Pro - Semibold";
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 24px;
+                padding-left: 69px;
+
+                &::before {
+                    content: '';
+                    background-image: url("../icons/contact_us/facebook.png");
+                    width: 48px;
+                    height: 48px;
+                    position: absolute;
+                    z-index: 2;
+                    top: -10px;
+                    left: 2px;
+                }
+            }
+
+            &__link2 {
+                display: block;
+                position: relative;
+                margin-top: 49px;
+                text-decoration: none;
+                color: #ffffff;
+                font-family: "Myriad Pro - Semibold";
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 24px;
+                padding-left: 70px;
+
+                &::before {
+                    content: '';
+                    background-image: url("../icons/contact_us/twiter.png");
+                    width: 48px;
+                    height: 48px;
+                    position: absolute;
+                    z-index: 2;
+                    top: -11px;
+                    left: 2px;
+                }
+
+            }
+
+            &__link3 {
+                display: block;
+                margin-top: 49px;
+                text-decoration: none;
+                position: relative;
+                color: #ffffff;
+                font-family: "Myriad Pro - Semibold";
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 24px;
+                padding-left: 68px;
+
+                &::before {
+                    content: '';
+                    background-image: url("../icons/contact_us/vk.png");
+                    width: 48px;
+                    height: 48px;
+                    position: absolute;
+                    z-index: 2;
+                    top: -14px;
+                    left: 1px;
+                }
+
+            }
+        }
+    }
+}

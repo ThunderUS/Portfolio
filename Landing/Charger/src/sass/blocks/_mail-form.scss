@@ -1,0 +1,65 @@
+.mail-form {
+    min-height: 148px;
+    background-color: #f0f0f0;
+    padding: 49px 0 48px 0;
+
+    &_black {
+        background-color: black;
+    }
+
+    &__form {
+        &__label {
+            display: block;
+            font-family: "Myriad Pro - Semibold";
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 24px;
+
+            &_black {
+                color: $mainColor;
+            }
+        }
+
+        &__input {
+            margin-top: 19px;
+            padding-left: 15px;
+            width: 696px;
+            height: 48px;
+            border: 2px solid $mainColor;
+            background-color: #ffffff;
+            margin-right: 19px;
+
+            &::placeholder {
+                color: $mainColor;
+
+                font-family: "Myriad Pro";
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+
+            }
+
+            &::-moz-placeholder {
+
+                line-height: 45px;
+            }
+        }
+
+        &__button {
+            width: 216px;
+            height: 48px;
+            background-color: #000000;
+            border-radius: 5px;
+            color: #3cd072;
+            font-family: "Myriad Pro - Semibold";
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+
+            &_black {
+                background-color: $mainColor;
+                color: white;
+            }
+        }
+    }
+}

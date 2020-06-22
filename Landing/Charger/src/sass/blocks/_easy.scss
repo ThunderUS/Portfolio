@@ -1,0 +1,78 @@
+.easy {
+  min-height: 816px;
+  padding-top: 48px;
+
+  &__img {
+    display: block;
+    margin: 0 auto;
+    padding-right: 18px;
+  }
+
+  &__title {
+    margin-top: 31px;
+    text-align: center;
+    font-family: "Myriad Pro - Semibold";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 18px;
+    padding-right: 21px;
+  }
+
+  &__subtitle {
+    margin-top: 16px;
+    text-align: center;
+    color: $mainColor;
+    font-family: "Myriad Pro - Semibold";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 37px;
+    padding-right: 20px;
+  }
+
+  &__wrapper {
+    margin-top: 44px;
+    display: flex;
+    justify-content: space-between;
+
+    &__item {
+      display: flex;
+      flex-direction: column;
+
+      justify-content: flex-start;
+      padding: 0 5px;
+
+      &__img {
+        margin: 0 auto;
+        width: 56px;
+        height: 56px;
+        border: 2px solid;
+        border-color: $mainColor;
+        border-radius: 50px;
+
+        span {
+          position: relative;
+          right: -41%;
+          bottom: -30%;
+          font-size: 22px;
+          color: $mainColor;
+        }
+      }
+
+      &__title {
+        flex: 1 1 auto;
+        margin: 0 auto;
+        margin-top: 24px;
+        max-width: 286px;
+        text-align: center;
+        font-family: "Myriad Pro - Semibold";
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+      }
+
+      .flex {
+        margin-top: 50px;
+      }
+    }
+  }
+}

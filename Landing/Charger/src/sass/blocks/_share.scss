@@ -1,0 +1,91 @@
+.share {
+    min-height: 624px;
+    background-color: #f0f0f0;
+    padding-top: 157px;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+
+        &__item {
+            flex: 0 0 50%;
+            position: relative;
+
+            &__img-1 {
+                position: absolute;
+                top: 4%;
+                left: -19%;
+            }
+
+            &__img-2 {
+                position: absolute;
+                overflow: hidden;
+                top: -51%;
+                left: 15%;
+                z-index: 0;
+            }
+
+        }
+
+        &__item-2 {
+            padding: 0 15px 0 83px;
+
+            &__title-1 {
+                position: relative;
+
+                color: $mainColor;
+                font-family: "Myriad Pro - Semibold";
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 32px;
+                left: 80px;
+                margin-bottom: 25px;
+
+                &::before {
+                    content: '';
+                    position: absolute;
+                    background-image: url("../icons/share_your_plug/Share_Icon.png");
+                    height: 56px;
+                    width: 56px;
+                    left: -21%;
+                    top: -40%;
+                    z-index: 2;
+
+                }
+            }
+
+            &__text {
+                font-family: "Helvetica Neue";
+                line-height: 24px;
+                font-size: 16px;
+            }
+
+            &__title-2 {
+                position: relative;
+                color: $mainColor;
+                font-family: "Myriad Pro - Semibold";
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 32px;
+                left: 80px;
+                margin-top: 59px;
+                margin-bottom: 24px;
+
+                &::before {
+                    content: '';
+                    position: absolute;
+                    background-image: url("../icons/share_your_plug/Vector_Smart_Object.png");
+                    height: 56px;
+                    width: 56px;
+                    left: -21%;
+                    top: -39%;
+                    z-index: 2;
+
+                }
+            }
+
+
+        }
+
+    }
+}

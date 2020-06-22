@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url("../fonts/HelveticaNeue.eot");
+    /* IE9 Compat Modes */
+    src: url("../fonts/HelveticaNeue.eot?#iefix") format("embedded-opentype"),
+        /* IE6-IE8 */
+        url("../fonts/HelveticaNeue.otf") format("opentype"),
+        /* Open Type Font */
+        url("../fonts/HelveticaNeue.svg") format("svg"),
+        /* Legacy iOS */
+        url("../fonts/HelveticaNeue.ttf") format("truetype"),
+        /* Safari, Android, iOS */
+        url("../fonts/HelveticaNeue.woff") format("woff"),
+        /* Modern Browsers */
+        url("../fonts/HelveticaNeue.woff2") format("woff2");
+    /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url("../fonts/HelveticaNeueLight.eot");
+    /* IE9 Compat Modes */
+    src: url("../fonts/HelveticaNeueLight.eot?#iefix") format("embedded-opentype"),
+        /* IE6-IE8 */
+        url("../fonts/HelveticaNeueLight.otf") format("opentype"),
+        /* Open Type Font */
+        url("../fonts/HelveticaNeueLight.svg") format("svg"),
+        /* Legacy iOS */
+        url("../fonts/HelveticaNeueLight.ttf") format("truetype"),
+        /* Safari, Android, iOS */
+        url("../fonts/HelveticaNeueLight.woff") format("woff"),
+        /* Modern Browsers */
+        url("../fonts/HelveticaNeueLight.woff2") format("woff2");
+    /* Modern Browsers */
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Helvetica Neue - Thin";
+    src: url('../fonts/HelveticaNeue-Thin.eot');
+    src: local('☺'), url('../fonts/HelveticaNeue-Thin.woff') format('woff'), url('../fonts/HelveticaNeue-Thin.ttf') format('truetype'), url('../fonts/HelveticaNeue-Thin.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Lucida Grande";
+    src: url('../fonts/LucidaGrande.eot');
+    src: local('☺'), url('../fonts/LucidaGrande.woff') format('woff'), url('../fonts/LucidaGrande.ttf') format('truetype'), url('../fonts/LucidaGrande.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Myriad Pro";
+    src: url('../fonts/MyriadPro-Regular.eot');
+    src: local('☺'), url('../fonts/MyriadPro-Regular.woff') format('woff'), url('../fonts/MyriadPro-Regular.ttf') format('truetype'), url('../fonts/MyriadPro-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Myriad Pro - Semibold";
+    src: url('../fonts/MyriadPro-Semibold_0.eot');
+    src: local('☺'), url('../fonts/MyriadPro-Semibold_0.woff') format('woff'), url('../fonts/MyriadPro-Semibold_0.ttf') format('truetype'), url('../fonts/MyriadPro-Semibold_0.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Compact Text - Semibold";
+    src: url('../fonts/SF-Compact-Text-Semibold.eot');
+    src: local('☺'), url('../fonts/SF-Compact-Text-Semibold.woff') format('woff'), url('../fonts/SF-Compact-Text-Semibold.ttf') format('truetype'), url('../fonts/SF-Compact-Text-Semibold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

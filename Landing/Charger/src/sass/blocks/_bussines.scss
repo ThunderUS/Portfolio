@@ -1,0 +1,113 @@
+.bussines {
+    padding-top: 90px;
+    min-height: 696px;
+    background: url("../img/business/bg/2-layers.jpg") center (center/cover) no-repeat;
+
+    &__wrapper {
+        display: flex;
+
+        &__item {
+            position: relative;
+            padding: 0 15px 0 0;
+            flex: 0 0 50%;
+
+            &__title {
+                position: relative;
+                color: #ffffff;
+                font-family: "Myriad Pro - Semibold";
+                font-size: 36px;
+                font-weight: 400;
+                line-height: 32px;
+                left: 21%;
+
+                &::before {
+                    position: absolute;
+                    content: "";
+                    background-image: url('../icons/business/Vector_Smart_Object.png');
+                    z-index: 2;
+                    width: 72px;
+                    height: 72px;
+                    left: -21%;
+                    top: -56%;
+
+                }
+
+
+            }
+
+            &__text {
+                margin-top: 40px;
+                color: #000000;
+                font-family: "Helvetica Neue";
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+            }
+
+            &__list {
+                margin-top: 46px;
+                padding-left: 81px;
+                padding-right: 10px;
+                max-width: 431px;
+
+                li {
+                    position: relative;
+                    color: #ffffff;
+                    font-family: "Myriad Pro - Semibold";
+                    font-size: 24px;
+                    font-weight: 400;
+                    line-height: 23px;
+                    margin-bottom: 50px;
+
+                    &::before {
+                        position: absolute;
+                        content: '';
+                        background-image: url('../../icons/business/Shape_1.png');
+                        width: 56px;
+                        height: 56px;
+                        z-index: 2;
+                        left: -24%;
+                        top: -57%;
+                    }
+
+                    &:nth-child(2) {
+                        &::before {
+                            top: -34%;
+
+                        }
+                    }
+
+                    &:nth-child(3) {
+                        &::before {
+                            top: -34%;
+
+                        }
+                    }
+                }
+            }
+
+            &__1 {
+                position: absolute;
+                left: -4%;
+                top: 38%;
+
+            }
+
+            &__2 {
+                position: absolute;
+                left: 30%;
+                top: 23.5%;
+
+            }
+
+            &__3 {
+                position: absolute;
+                left: 70%;
+                top: 5%;
+
+            }
+
+        }
+
+    }
+}

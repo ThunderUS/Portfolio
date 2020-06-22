@@ -1,0 +1,196 @@
+.header {
+    position: relative;
+    min-height: 624px;
+    background: url("../img/header/bg/bg.jpg") center (center/cover) no-repeat;
+    z-index: 1;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+
+        &__item {
+            flex: 1 1 50%;
+
+            &__title {
+                padding-top: 61px;
+                color: #ffffff;
+                font-family: "SF Compact Text - Semibold";
+                font-size: 35px;
+                font-weight: 400;
+                line-height: 22.63px;
+                text-transform: uppercase;
+                letter-spacing: -2.2px;
+            }
+
+            &__row {
+                margin-top: 105px;
+                display: flex;
+                justify-content: left;
+                align-items: center;
+
+                &__img {
+                    flex: 0 0 56px;
+                    filter: brightness(15);
+                    margin-right: 26px;
+
+                    img {
+                        max-width: 100%;
+                        max-height: 100%;
+                    }
+                }
+
+                &__text-title {
+                    color: #fff;
+                    font-family: "Myriad Pro";
+                    font-size: 32px;
+                    font-weight: 400;
+                    line-height: 32px;
+                }
+
+                &__text-subtitle {
+                    color: #fff;
+                    font-family: "Myriad Pro - Semibold";
+                    font-size: 32px;
+                    font-weight: 600;
+                    line-height: 27px;
+                }
+            }
+
+            &__text {
+                max-width: 467px;
+                margin-top: 26px;
+                font-family: "Helvetica Neue";
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 24px;
+                color: #fff;
+                letter-spacing: 1px;
+            }
+
+            &__button {
+                display: block;
+                position: relative;
+                margin-top: 15px;
+
+                width: 216px;
+                height: 48px;
+                background-color: #0d0d0d;
+                border-radius: 5px;
+
+                &:hover {
+                    content: "";
+                    background-image: url("../img/header/Highlight.png");
+                    background-repeat: no-repeat;
+                    background-position: 50px 0;
+                }
+
+                .left_text {
+                    padding-left: 81px;
+                }
+
+                &__text {
+                    padding-top: 5px;
+
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        background-image: url("../icons/header/Apple_logo.svg");
+                        width: 29px;
+                        height: 34px;
+                        z-index: 3;
+                        left: 36px;
+                    }
+
+                    &__upper {
+                        padding-left: 3px;
+
+                        color: #fff;
+                        font-family: "Lucida Grande";
+                        font-size: 10px;
+                        font-weight: 400;
+                        line-height: 21.75px;
+                        /* Text style for "Soon on th" */
+                        //letter-spacing: -0.39px;
+                    }
+
+                    &__text {
+                        color: #ffffff;
+                        font-family: "Lucida Grande";
+                        font-size: 19px;
+                        font-weight: 400;
+                        line-height: 9px;
+                        /* Text style for "A, p, p," */
+                        letter-spacing: -0.8px;
+                    }
+                }
+            }
+
+            &__form {
+                margin-top: 53px;
+
+                label {
+                    color: #ffffff;
+                    font-family: "Myriad Pro";
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+
+                input {
+                    display: inline-block;
+                    margin-top: 6px;
+                    margin-right: 21px;
+                    width: 296px;
+                    height: 48px;
+                    border: 2px solid #ffffff;
+                    background-color: rgba(255, 255, 255, 0);
+                    padding-left: 15px;
+                    color: #ffffff;
+                    font-family: "Myriad Pro";
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+
+                    &::placeholder {
+                        color: rgba(255, 255, 255, 1);
+                    }
+                }
+
+                button {
+                    display: inline-block;
+                    margin-top: 7px;
+                    top: 1px;
+                    width: 136px;
+                    height: 49px;
+                    background-color: #ffffff;
+                    border-radius: 5px;
+                    color: $mainColor;
+                    font-family: "Myriad Pro - Semibold";
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 25px;
+                }
+            }
+        }
+
+        &__item__second {
+            flex: 1 1 50%;
+            position: relative;
+
+            &__img1 {
+                position: absolute;
+                z-index: 1;
+                left: 14.507%;
+                bottom: -107px;
+            }
+
+            &__img2 {
+                position: absolute;
+                z-index: 2;
+                left: 98%;
+                transform: translateX(-99%);
+                bottom: -156px;
+            }
+        }
+    }
+}
